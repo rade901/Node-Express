@@ -36,6 +36,10 @@ router.route('/sorted&sortBy=duration').get((req, res) =>{
          res.send(duration);
     
 });
+//route to  sorted
+router.route('/sorted').get((req, res) =>{
+   res.send(sortB);
+});
 
     
 
