@@ -1,0 +1,88 @@
+[
+  {
+    "id" : 1,
+    "title" : "rade",
+    "artist" : "jasen",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "10",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 2,
+    "title" : "rade",
+    "artist" : "jasen",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "10",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 3,
+    "title" : "ivana",
+    "artist" : "jasen",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "10",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 4,
+    "title" : "aleksandra",
+    "artist" : "jasen",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "10",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 5,
+    "title" : "aleksandra",
+    "artist" : "jasen",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "1",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 5,
+    "title" : "aleksandra",
+    "artist" : "alallala",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "1",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 6,
+    "title" : "aaaaaaaaaa",
+    "artist" : "alallala",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "3:00",
+      "riting" : "good",
+      "price" : "1",
+      "cover" : "cover 2"
+  }
+]
+
+  

@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "sort-json-array": "^0.1.7",
+    "uid2": "^1.0.0"
+  },
+  "name": "clover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
