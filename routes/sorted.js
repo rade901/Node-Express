@@ -6,6 +6,10 @@ const require = createRequire(import.meta.url);
 const sortB = require("../tracksDB.json");
 
 const router = express.Router();
+//route to  sorted
+router.route('/sorted').get((req, res) =>{
+   res.send(sortB);
+});
 //route to sort by title
 router.route('/sorted&sortBy=title').get((req, res) =>{
 // Function to sort the tracks by title
@@ -36,15 +40,7 @@ router.route('/sorted&sortBy=duration').get((req, res) =>{
          res.send(duration);
     
 });
-//route to  sorted
-router.route('/sorted').get((req, res) =>{
-   res.send(sortB);
-});
+
 
     
-
-
-
-
-
 export default router;
