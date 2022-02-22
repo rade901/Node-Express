@@ -7,8 +7,7 @@ const data = require("../tracksDB.json");
 
 const router = express.Router();
 
-
-
+// route to get a all tracks
 router.get("/tracks", (req, res) => {
    res.send(data);
 });
