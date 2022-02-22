@@ -82,6 +82,30 @@
       "riting" : "good",
       "price" : "1",
       "cover" : "cover 2"
+  },
+  {
+    "id" : 7,
+    "title" : "bbbbbbb",
+    "artist" : "alallala",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "5:00",
+      "riting" : "good",
+      "price" : "1",
+      "cover" : "cover 2"
+  },
+  {
+    "id" : 7,
+    "title" : "bbbbbbb",
+    "artist" : "alallala",
+      "album" : "sad",
+      "year" : "1999",
+      "genre" : "pop",
+      "duration" : "1:00",
+      "riting" : "good",
+      "price" : "1",
+      "cover" : "cover 2"
   }
 ]
 
