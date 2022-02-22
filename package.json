@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.17.3",
+    "sort-asc": "^0.2.0",
     "sort-json-array": "^0.1.7",
     "uid2": "^1.0.0"
   },

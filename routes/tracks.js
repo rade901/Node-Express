@@ -13,7 +13,7 @@ router.get("/tracks", (req, res) => {
    res.send(data);
 });
 router.get("/tracks/:id", (req, res) => {
-   res.send(data.filter(track => track.id === parseInt(req.params.id)));
+   res.status(200).send(data.find(track => track.id === parseInt(req.params.id)));
 });
 
 
