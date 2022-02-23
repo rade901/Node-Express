@@ -11,8 +11,13 @@ const router = express.Router();
 //route to sort by title
 router.route('/sorted').get((req, res) =>{
 // Function to sort the tracks by title
-    const sortBy = req.query.sortBy;
-      const sortByTitle = sortB.sort((a, b) => {
+
+      const sortBy = req.query.sortBy;
+      if(!sortBy) {
+         res.send(sortB.sort());
+         }else{
+      const sorted = sortB.sort((a, b) => {
+
          if (a[sortBy] < b[sortBy]) {
             return -1;
          }
@@ -21,7 +26,9 @@ router.route('/sorted').get((req, res) =>{
          }
          return 0;
          });
-         res.send(sortByTitle);
+         res.send(sorted);
+   }
+   
          
 });
 
