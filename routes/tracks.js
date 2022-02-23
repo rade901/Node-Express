@@ -1,9 +1,8 @@
 import express from "express";
-import { readdirSync } from "fs";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 // require("../tracksDB.json");
-const data = require("../tracksDB.json");
+const tracks = require("../tracksDB.json");
 
 
 
@@ -11,7 +10,7 @@ const router = express.Router();
 
 // route to get a all tracks
 router.get("/tracks", (req, res) => {
-   res.send(data);
+   res.send(tracks);
 });
 
 export default router;
