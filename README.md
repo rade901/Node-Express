@@ -10,7 +10,7 @@
 
 Za dohvaćanje podataka koristen json file tracksDB.json 
 
- <img src="https://www.quantexdigital.com/wp-content/uploads/2021/11/nodejs-2048x1075.png" width="900" height="400" alt="Node logo"> 
+ <img src="https://cdn.ourcodeworld.com/public-media/articles/articleocw-57e57b89889ad.png" width="900" height="400" alt="Node logo"> 
  
  1. GET / tracks -> retrieves all songs
 2. GET / tracks /: id -> retrieves the song by id
